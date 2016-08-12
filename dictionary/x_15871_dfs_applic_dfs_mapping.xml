@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="DFS Mapping" max_length="40" name="x_15871_dfs_applic_dfs_mapping" type="collection">
+        <element label="Request Category" max_length="40" name="dms_request_category" type="string"/>
+        <element label="Request SubCategory1" max_length="40" name="dms_request_subcategory1" type="string"/>
+        <element label="Request SubCategory2" max_length="40" name="dms_request_subcategory2" type="string"/>
+        <element label="Request SubCategory3" max_length="40" name="dms_request_subcategory3" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Other details" section_id="8e8fe9954fcd2200f5374ea18110c7bb" sys_domain="global" table="x_15871_dfs_applic_dwss_payroll" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-08-11 10:07:03</sys_created_on>
+            <sys_id>4e8c8aaf4f0d2200f5374ea18110c700</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other details" display_value="Other details" name="x_15871_dfs_applic_dwss_payroll" sys_domain="global" view="Default view">8e8fe9954fcd2200f5374ea18110c7bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-11 10:07:03</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_dpr_deduction</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-08-11 10:07:03</sys_created_on>
+            <sys_id>ce8c8aaf4f0d2200f5374ea18110c700</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other details" display_value="Other details" name="x_15871_dfs_applic_dwss_payroll" sys_domain="global" view="Default view">8e8fe9954fcd2200f5374ea18110c7bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-11 10:07:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_dpr_request</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-08-11 10:07:03</sys_created_on>
+            <sys_id>428c8aaf4f0d2200f5374ea18110c701</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other details" display_value="Other details" name="x_15871_dfs_applic_dwss_payroll" sys_domain="global" view="Default view">8e8fe9954fcd2200f5374ea18110c7bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-11 10:07:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-08-11 10:07:03</sys_created_on>
+            <sys_id>c28c8aaf4f0d2200f5374ea18110c701</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other details" display_value="Other details" name="x_15871_dfs_applic_dwss_payroll" sys_domain="global" view="Default view">8e8fe9954fcd2200f5374ea18110c7bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-11 10:07:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_dpr_start_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-08-11 10:07:03</sys_created_on>
+            <sys_id>468c8aaf4f0d2200f5374ea18110c701</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other details" display_value="Other details" name="x_15871_dfs_applic_dwss_payroll" sys_domain="global" view="Default view">8e8fe9954fcd2200f5374ea18110c7bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-11 10:07:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_dpr_end_date</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-08-11 10:07:03</sys_created_on>
+            <sys_id>c68c8aaf4f0d2200f5374ea18110c701</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other details" display_value="Other details" name="x_15871_dfs_applic_dwss_payroll" sys_domain="global" view="Default view">8e8fe9954fcd2200f5374ea18110c7bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-11 10:07:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_dpr_amount</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-08-11 10:07:03</sys_created_on>
+            <sys_id>4a8c8aaf4f0d2200f5374ea18110c701</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other details" display_value="Other details" name="x_15871_dfs_applic_dwss_payroll" sys_domain="global" view="Default view">8e8fe9954fcd2200f5374ea18110c7bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-11 10:07:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-08-11 10:07:03</sys_created_on>
+            <sys_id>ca8c8aaf4f0d2200f5374ea18110c701</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other details" display_value="Other details" name="x_15871_dfs_applic_dwss_payroll" sys_domain="global" view="Default view">8e8fe9954fcd2200f5374ea18110c7bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-11 10:07:03</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Other details</caption>
+            <header>false</header>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Sonika Pathak</sys_created_by>
+            <sys_created_on>2016-08-04 08:14:01</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e8fe9954fcd2200f5374ea18110c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Other details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_ui_section_8e8fe9954fcd2200f5374ea18110c7bb</sys_update_name>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:14:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

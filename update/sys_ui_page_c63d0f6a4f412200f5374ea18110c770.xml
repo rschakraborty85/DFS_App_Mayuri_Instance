@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_15871_dfs_applic_DFS - Homepage.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">	
+
+	<link href="9765562a4f012200f5374ea18110c7a6.cssdbx" rel="stylesheet" type="text/css"></link>
+	<link href="d955d44f4f412200f5374ea18110c7e2.cssdbx" rel="stylesheet" type="text/css"></link>
+
+
+	<div class="container-fluid" style="background-color: #CBD2D4"> 
+<!-- 	<div class="container-fluid bg-dafault bg-success"> -->
+		<div class="row">
+			<div class="col-lg-12">
+				<h3 class="page-header"><b><i>Disney Finance System</i></b></h3>
+			</div>
+
+		</div>
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">  					
+				Message Center
+			</div>
+
+
+
+			<div class="panel-body bg-info">
+				<div class="col-sm-12 heading">
+					<div class="col-sm-6 Panel-Border"><b>News/Articles</b></div>								
+					<div class="col-sm-6 "><b>Self Help</b></div>															
+				</div>
+				<div class="col-sm-12">
+					<div class="col-sm-6 list-group">							
+						<g:inline template="x_15871_dfs_applic_DFS_Articles.xml"/>																                                                
+					</div>
+					<div class="col-sm-6 list-group">
+						<g:inline template="x_15871_dfs_applic_DFS_Message.xml"/>										                                              
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel panel-primary">
+
+			<div class="panel-heading">                       
+				DFS Categories
+			</div>
+
+
+			<div class="col-sm-12 heading">
+				<div class="panel-heading sub-header"><b>Select Any Category</b></div>																											
+			</div>
+
+			<div class="panel-body bg-info">
+				<div class="row">	
+                  <g:inline template="x_15871_dfs_applic_DFS_Categories.xml"/>	
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</j:jelly>]]></html>
+        <name>DFS - Homepage</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>Pankaj</sys_created_by>
+        <sys_created_on>2016-08-08 12:16:21</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c63d0f6a4f412200f5374ea18110c770</sys_id>
+        <sys_mod_count>179</sys_mod_count>
+        <sys_name>DFS - Homepage</sys_name>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>sys_ui_page_c63d0f6a4f412200f5374ea18110c770</sys_update_name>
+        <sys_updated_by>Pankaj</sys_updated_by>
+        <sys_updated_on>2016-08-12 06:32:34</sys_updated_on>
+    </sys_ui_page>
+</record_update>

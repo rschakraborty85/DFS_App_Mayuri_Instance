@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_15871_dfs_applic.DFSClientCallableFunction</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DFSClientCallableFunction</name>
+        <script><![CDATA[var DFSClientCallableFunction = Class.create();
+DFSClientCallableFunction.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getDFSPayrollRecordDetails : function()
+	{
+		var result ='';
+		var current_sys_id = this.getParameter('sysparm_currentSysID');
+		if(current_sys_id !="" && current_sys_id)
+			{
+			var getRecordDetails = new GlideRecord('x_15871_dfs_applic_dwss_payroll');
+			if (getRecordDetails.get(current_sys_id))
+				{
+				
+				result = getRecordDetails.dfs_request_category+","+getRecordDetails.dfs_dpr_what_is_the_issue_related_to+","+getRecordDetails.dfs_dpr_type_of_issue+","+getRecordDetails.dfs_dpr_issue_related+","+getRecordDetails.dfs_assignment_group+","+getRecordDetails.dfs_dpr_who_is_the_inquiry_for+","+getRecordDetails.dfs_dpr_what_segment_bu_do_you_support+","+getRecordDetails.dfs_urgency+","+getRecordDetails.dfs_impact;
+			}
+			
+		}
+		return result;
+	},
+	
+	setSubCatDetails : function()
+	{
+		try{
+			var newChoices = '';
+			var cat = this.getParameter('sysparm_category');
+			
+			var subCategories = new GlideAggregate('x_15871_dfs_applic_dfs_mapping');
+			subCategories.addQuery('dms_request_category', cat);
+			subCategories.groupBy('dms_request_subcategory1');
+			subCategories.query();
+			while(subCategories.next())
+				{
+				newChoices+=subCategories.dms_request_subcategory1.toString()+',';
+			}
+			return newChoices;
+		}
+		catch(ex)
+		{
+			gs.log(ex);
+		}
+	},
+	
+	setSubCat1Details : function()
+	{
+		try{
+			var newChoices = '';
+			var cat = this.getParameter('sysparm_category1');
+			
+			var subCategories = new GlideAggregate('x_15871_dfs_applic_dfs_mapping');
+			subCategories.addQuery('dms_request_subcategory1',"Payroll Operations");
+			subCategories.groupBy('dms_request_subcategory2');
+			subCategories.query();
+			while(subCategories.next())
+				{
+				newChoices+=subCategories.dms_request_subcategory2.toString()+',';
+			}
+			return newChoices;
+		}
+		catch(ex)
+		{
+			gs.log(ex);
+		}
+	},
+	
+	setSubCat3Details : function()
+	{
+		try{
+			var newChoices = '';
+			var cat = this.getParameter('sysparm_category1');
+			
+			var subCategories = new GlideAggregate('x_15871_dfs_applic_dfs_mapping');
+			subCategories.addQuery('dms_request_subcategory2', cat);
+			subCategories.groupBy('dms_request_subcategory3');
+			subCategories.query();
+			while(subCategories.next())
+				{
+				newChoices+=subCategories.dms_request_subcategory3.toString()+',';
+			}
+			return newChoices;
+		}
+		catch(ex)
+		{
+			gs.log(ex);
+		}
+	},
+	
+	getFieldDetailsAndBehavior : function()
+	{
+		try{
+			var fieldName = '';
+			var isFieldMandatory = '';
+			var isFieldReadonly = '';
+			var cat = this.getParameter('sysparm_category');
+			var catSubCat1 = this.getParameter('sysparm_categorySubCat1');
+			var catSubCat2 = this.getParameter('sysparm_categorySubCat2');
+			var catSubCat3 = this.getParameter('sysparm_categorySubCat3');
+			
+			var fieldNameAndBehavior = new GlideRecord('x_15871_dfs_applic_dfs_field_behavior');
+			fieldNameAndBehavior.addQuery('dfb_request_category',cat);
+			fieldNameAndBehavior.addQuery('dfb_request_subcategory1',catSubCat1);
+			fieldNameAndBehavior.addQuery('dfb_request_subcategory2',catSubCat2);
+			fieldNameAndBehavior.addQuery('dfb_request_subcategory3',catSubCat3);
+			fieldNameAndBehavior.addNullQuery('dfb_dependent_field_name');
+			fieldNameAndBehavior.query();
+			while(fieldNameAndBehavior.next())
+				{
+				fieldName+=fieldNameAndBehavior.dfb_field_name.toString()+',';
+				isFieldMandatory+=fieldNameAndBehavior.dfb_is_mandatory.toString()+',';
+				isFieldReadonly+=fieldNameAndBehavior.dfb_is_readonly.toString()+',';
+				
+			}
+			return fieldName +"::" +isFieldMandatory +"::" +isFieldReadonly;
+		}
+		catch(ex)
+		{
+			gs.log(ex);
+		}
+	},
+	
+	getRequestFieldDetailsAndBehavior : function()
+	{
+		try{
+			var fieldName = '';
+			var dependentField = '';
+			var values = '';
+			var isFieldMandatory = '';
+			var isFieldReadonly = '';
+			var cat = this.getParameter('sysparm_category');
+			var catSubCat1 = this.getParameter('sysparm_categorySubCat1');
+			var catSubCat2 = this.getParameter('sysparm_categorySubCat2');
+			var catSubCat3 = this.getParameter('sysparm_categorySubCat3');
+			var otherDetail = this.getParameter('sysparm_fieldName');
+			
+			var fieldNameAndBehavior = new GlideRecord('x_15871_dfs_applic_dfs_field_behavior');
+			fieldNameAndBehavior.addQuery('dfb_request_category',cat);
+			fieldNameAndBehavior.addQuery('dfb_request_subcategory1',catSubCat1);
+			fieldNameAndBehavior.addQuery('dfb_request_subcategory2',catSubCat2);
+			fieldNameAndBehavior.addQuery('dfb_request_subcategory3',catSubCat3);
+			fieldNameAndBehavior.addQuery('dfb_value',otherDetail);
+			fieldNameAndBehavior.addNotNullQuery('dfb_value');
+			fieldNameAndBehavior.query();
+			while(fieldNameAndBehavior.next())
+				{
+				fieldName+=fieldNameAndBehavior.dfb_field_name.toString()+',';
+				//dependentField+=fieldNameAndBehavior.dfb_dependent_field_name.toString()+',';
+				values+=fieldNameAndBehavior.dfb_value.toString()+',';
+				isFieldMandatory+=fieldNameAndBehavior.dfb_is_mandatory.toString()+',';
+				isFieldReadonly+=fieldNameAndBehavior.dfb_is_readonly.toString()+',';
+				
+			}
+			return fieldName +"||" +values +"||" +isFieldMandatory +"||" +isFieldReadonly;
+		}
+		catch(ex)
+		{
+			gs.log(ex);
+		}
+	},
+	
+	type: 'DFSClientCallableFunction'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-20 14:44:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>10c83d604fb42200f5374ea18110c75c</sys_id>
+        <sys_mod_count>96</sys_mod_count>
+        <sys_name>DFSClientCallableFunction</sys_name>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>sys_script_include_10c83d604fb42200f5374ea18110c75c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-11 14:14:08</sys_updated_on>
+    </sys_script_include>
+</record_update>

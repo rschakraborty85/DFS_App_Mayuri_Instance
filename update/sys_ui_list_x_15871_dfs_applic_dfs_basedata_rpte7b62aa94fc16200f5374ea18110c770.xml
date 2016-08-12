@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_15871_dfs_applic_dfs_basedata" version="2" view="RPTe7b62aa94fc16200f5374ea18110c770">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="x_15871_dfs_applic_dfs_basedata" element="NULL" name="x_15871_dfs_applic_dfs_basedata" parent="NULL" relationship="NULL" sys_domain="global" view="6fb62aa94fc16200f5374ea18110c770">a3b62aa94fc16200f5374ea18110c771</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-08-05 06:53:43</sys_created_on>
+            <sys_id>a7b62aa94fc16200f5374ea18110c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-05 06:53:43</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-08-05 06:53:43</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3b62aa94fc16200f5374ea18110c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_15871_dfs_applic_dfs_basedata</sys_name>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_ui_list_x_15871_dfs_applic_dfs_basedata_RPTe7b62aa94fc16200f5374ea18110c770</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-05 06:53:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpte7b62aa94fc16200f5374ea18110c770" name="RPTe7b62aa94fc16200f5374ea18110c770">6fb62aa94fc16200f5374ea18110c770</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

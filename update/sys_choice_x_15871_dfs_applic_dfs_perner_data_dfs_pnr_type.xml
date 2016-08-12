@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="dfs_pnr_type" table="x_15871_dfs_applic_dfs_perner_data" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_pnr_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regular Time</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:34:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f8c8e074f302200f5374ea18110c72d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:34:40</sys_updated_on>
+            <value>Regular Time</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_pnr_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Overtime</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:34:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>579ccec34f302200f5374ea18110c7b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:34:52</sys_updated_on>
+            <value>Overtime</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_pnr_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vacation</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:35:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2accec34f302200f5374ea18110c7b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:35:04</sys_updated_on>
+            <value>Vacation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_pnr_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sick</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:35:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9bc8e074f302200f5374ea18110c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:35:16</sys_updated_on>
+            <value>Sick</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_pnr_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Holiday</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:35:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4cc4a074f302200f5374ea18110c74a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:35:32</sys_updated_on>
+            <value>Holiday</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_pnr_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Travel Day</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:35:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45dcce074f302200f5374ea18110c77d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:35:49</sys_updated_on>
+            <value>Travel Day</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_pnr_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Penalties or Fees</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:36:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4ecc6074f302200f5374ea18110c7d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:36:04</sys_updated_on>
+            <value>Penalties or Fees</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_pnr_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incorrect Rate</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:36:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77ecce074f302200f5374ea18110c774</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:36:17</sys_updated_on>
+            <value>Incorrect Rate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_pnr_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:36:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6fc4e074f302200f5374ea18110c755</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:36:27</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dfs_pnr_type</element>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:34:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0a9c4e074f302200f5374ea18110c7fc</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>dfs_pnr_type</sys_name>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_choice_x_15871_dfs_applic_dfs_perner_data_dfs_pnr_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:36:27</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

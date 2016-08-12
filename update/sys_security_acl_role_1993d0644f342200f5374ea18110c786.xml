@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-20 07:21:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1993d0644f342200f5374ea18110c786</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_15871_dfs_applic_sap_ptp.x_15871_dfs_applic_dfs_basedata_user</sys_name>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_security_acl display_value="x_15871_dfs_applic_sap_ptp">1d93d0644f342200f5374ea18110c785</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1993d0644f342200f5374ea18110c786</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-20 07:21:09</sys_updated_on>
+        <sys_user_role display_value="x_15871_dfs_applic_dfs_basedata_user" name="x_15871_dfs_applic_dfs_basedata_user">4d2dc0d04f302200f5374ea18110c736</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

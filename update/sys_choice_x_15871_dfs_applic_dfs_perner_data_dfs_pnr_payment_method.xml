@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="dfs_pnr_payment_method" table="x_15871_dfs_applic_dfs_perner_data" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_pnr_payment_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Direct Deposit / Paycard</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:15:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f728ca834f302200f5374ea18110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:15:33</sys_updated_on>
+            <value>Direct Deposit / Paycard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_pnr_payment_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Check</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:15:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>944802834f302200f5374ea18110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:15:49</sys_updated_on>
+            <value>Check</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dfs_pnr_payment_method</element>
+            <name>x_15871_dfs_applic_dfs_perner_data</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-28 10:15:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b938ca834f302200f5374ea18110c73e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>dfs_pnr_payment_method</sys_name>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_choice_x_15871_dfs_applic_dfs_perner_data_dfs_pnr_payment_method</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-28 10:15:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

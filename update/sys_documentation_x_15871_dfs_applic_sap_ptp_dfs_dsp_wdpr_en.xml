@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="dfs_dsp_wdpr" label="WDPR Segment" language="en" table="x_15871_dfs_applic_sap_ptp">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>dfs_dsp_wdpr</element>
+            <help/>
+            <hint/>
+            <label>WDPR Segment</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_sap_ptp</name>
+            <plural>WDPR Segments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 07:23:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ff1494644f342200f5374ea18110c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>WDPR Segment</sys_name>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_documentation_x_15871_dfs_applic_sap_ptp_dfs_dsp_wdpr_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-20 07:23:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

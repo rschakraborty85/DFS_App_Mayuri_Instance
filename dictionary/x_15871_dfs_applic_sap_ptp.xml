@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_15871_dfs_applic_dfs_basedata" label="SAP - PTP - Purchasing/eSource" max_length="40" name="x_15871_dfs_applic_sap_ptp" type="collection">
+        <element choice="1" label="What is the error message?" max_length="40" name="dfs_dpr_error_message" type="choice">
+            <choice>
+                <element label="Profit Center does not belong to Company Code" value="Profit Center does not belong to Company Code"/>
+                <element label="No data found for employee" sequence="100" value="No data found for employee"/>
+            </choice>
+        </element>
+        <element label="Enter the cart" max_length="40" name="dfs_dsp_cart" type="string"/>
+        <element choice="1" label="Type of issue" max_length="40" name="dfs_dsp_issue" type="choice">
+            <choice>
+                <element label="Shopping Cart" sequence="100" value="Shopping Cart"/>
+                <element label="Purchase Order" sequence="200" value="Purchase Order"/>
+            </choice>
+        </element>
+        <element label="What is the line?" max_length="40" name="dfs_dsp_line" type="string"/>
+        <element label="What is the PO ?" max_length="40" name="dfs_dsp_po" type="string"/>
+        <element choice="1" label="What segment do you support?" max_length="40" name="dfs_dsp_segment" type="choice">
+            <choice>
+                <element label="WDPR" sequence="100" value="WDPR"/>
+                <element label="Corporate" sequence="200" value="Corporate"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type of shopping cart" max_length="40" name="dfs_dsp_type" type="choice">
+            <choice>
+                <element label="Catalog" sequence="100" value="Catalog"/>
+                <element label="Create limit item" sequence="200" value="Create limit item"/>
+            </choice>
+        </element>
+        <element choice="1" label="WDPR Segment" max_length="40" name="dfs_dsp_wdpr" type="choice">
+            <choice>
+                <element label="Aulani" sequence="100" value="Aulani"/>
+                <element label="DCA" sequence="200" value="DCA"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

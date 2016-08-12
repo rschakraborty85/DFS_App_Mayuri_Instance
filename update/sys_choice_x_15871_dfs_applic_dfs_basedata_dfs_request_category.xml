@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="dfs_request_category" table="x_15871_dfs_applic_dfs_basedata" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_request_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DWSS - Payroll</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:13:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f066fb1c4ff02200f5374ea18110c71c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-09 15:19:16</sys_updated_on>
+            <value>x_15871_dfs_applic_dwss_payroll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_request_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DWSS - T&amp;E/PCard</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:13:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc76b71c4ff02200f5374ea18110c781</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2016-08-11 06:40:56</sys_updated_on>
+            <value>x_15871_dfs_applic_dwss_payroll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_request_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DWSS - Accounts Payable</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sequence>300</sequence>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2016-08-10 12:58:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe4a6d1b4fc52200f5374ea18110c78d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2016-08-11 06:41:01</sys_updated_on>
+            <value>x_15871_dfs_applic_dwss_payroll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_request_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DWSS - TWDC Procurement Services</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sequence>400</sequence>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2016-08-10 12:59:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e7aed1b4fc52200f5374ea18110c77c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2016-08-11 06:41:05</sys_updated_on>
+            <value>x_15871_dfs_applic_dwss_payroll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_request_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SAP - PTP - Purchasing/eSource</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sequence>500</sequence>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2016-08-10 12:59:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>136a6d1b4fc52200f5374ea18110c78f</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2016-08-11 06:41:09</sys_updated_on>
+            <value>x_15871_dfs_applic_dwss_payroll</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_request_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SAP - Other</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sequence>600</sequence>
+            <sys_created_by>Pankaj</sys_created_by>
+            <sys_created_on>2016-08-10 13:00:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d89a215b4fc52200f5374ea18110c710</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-08-11 06:06:17</sys_updated_on>
+            <value>https://disney.service-now.com/DToolsIT/</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dfs_request_category</element>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:13:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7a66b71c4ff02200f5374ea18110c78d</sys_id>
+            <sys_mod_count>24</sys_mod_count>
+            <sys_name>dfs_request_category</sys_name>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_choice_x_15871_dfs_applic_dfs_basedata_dfs_request_category</sys_update_name>
+            <sys_updated_by>Pankaj</sys_updated_by>
+            <sys_updated_on>2016-08-11 06:41:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

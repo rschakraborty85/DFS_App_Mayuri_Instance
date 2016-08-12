@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_15871_dfs_applic_testAng.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8"?>  
+<j:jelly xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null" trim="false">  
+  <g:requires name="x_15871_dfs_applic.angular.min.jsdbx"/>  
+	<g:inline template="x_15871_dfs_applic_baseModControl.xml"/>
+    <body ng-app="angularHelloWorldApp">  
+        <div ng-controller="MainController">  
+            <!--h1>{{ greeting }}</h1-->  
+			Check if anugular works:
+			<input type="text" ng-model="nameIs"/><br/>
+			<span>You said:$[SP]{{nameIs}}</span>
+        </div>  
+		
+		<div ng-controller="TryService">  
+            <!--h1>{{ greeting }}</h1-->  
+			Provide incident number(for testing http service):
+			<input type="text" ng-model="incident"/>
+			<button ng-click="clicked()">Post</button>
+			<br/>
+			{{responseData}}
+        </div>  
+		
+		<!--div ng-controller="TryService2">  
+            <h1>{{ greeting }}</h1>  
+			Provide keyword to search(from wiki):
+			<input type="text" ng-model="keywords"/>
+			<button ng-click="clicked2()">Post</button>
+			<br/>
+			{{responseData}}
+        </div--> 
+    </body>
+</j:jelly>  ]]></html>
+        <name>testAng</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>rsc</sys_created_by>
+        <sys_created_on>2016-08-12 06:23:34</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b4e2a23f4f416200f5374ea18110c76b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>testAng</sys_name>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>sys_ui_page_b4e2a23f4f416200f5374ea18110c76b</sys_update_name>
+        <sys_updated_by>rsc</sys_updated_by>
+        <sys_updated_on>2016-08-12 09:22:50</sys_updated_on>
+    </sys_ui_page>
+</record_update>

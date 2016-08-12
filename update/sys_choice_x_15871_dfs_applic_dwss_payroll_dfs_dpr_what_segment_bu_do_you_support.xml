@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="dfs_dpr_what_segment_bu_do_you_support" table="x_15871_dfs_applic_dwss_payroll" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WDW</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:19:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09a7b75c4ff02200f5374ea18110c7f8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:10:27</sys_updated_on>
+            <value>WDW</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DLR</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:19:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4b7375c4ff02200f5374ea18110c7f8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:10:27</sys_updated_on>
+            <value>DLR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCL</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:19:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bb7735c4ff02200f5374ea18110c7b9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:10:27</sys_updated_on>
+            <value>DCL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DVC</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:19:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ac7f75c4ff02200f5374ea18110c72c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:10:27</sys_updated_on>
+            <value>DVC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WDI</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:20:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35d7f75c4ff02200f5374ea18110c789</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:10:27</sys_updated_on>
+            <value>WDI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corporate</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:20:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25e7b75c4ff02200f5374ea18110c7fc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:10:27</sys_updated_on>
+            <value>Corporate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Studio</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:20:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4f7f75c4ff02200f5374ea18110c7d0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:10:27</sys_updated_on>
+            <value>Studio</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCPI</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:20:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee08375c4ff02200f5374ea18110c7fc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:10:27</sys_updated_on>
+            <value>DCPI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Media</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:21:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2187b5c4ff02200f5374ea18110c730</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:10:27</sys_updated_on>
+            <value>Media</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ESPN</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:21:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d283b5c4ff02200f5374ea18110c761</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:10:27</sys_updated_on>
+            <value>ESPN</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dfs_dpr_what_segment_bu_do_you_support</element>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:19:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>aaa7b75c4ff02200f5374ea18110c721</sys_id>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_name>dfs_dpr_what_segment_bu_do_you_support</sys_name>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_choice_x_15871_dfs_applic_dwss_payroll_dfs_dpr_what_segment_bu_do_you_support</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-20 05:21:23</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

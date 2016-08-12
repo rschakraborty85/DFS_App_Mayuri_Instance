@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This script is used to handle the field and their behavior depending on Request category, Request sub category1,Request sub category2,Request sub category3</description>
+        <field>dfs_dpr_issue_related</field>
+        <global>true</global>
+        <messages/>
+        <name>DFS - OnChangeOfSubCat3 - Field Behavior</name>
+        <order/>
+        <script><![CDATA[var arr_hide = '';
+function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(newValue!= oldValue && arr_hide)
+		{
+		for (var i=0; i<arr_hide.length; i++) {
+			g_form.setReadonly(arr_hide[i],false);
+			g_form.setMandatory(arr_hide[i],false);
+			
+			g_form.setDisplay(arr_hide[i],false);
+		}
+		}
+	
+	var category = g_form.getValue('dfs_request_category');
+	var subCategory1 = g_form.getValue('dfs_dpr_what_is_the_issue_related_to');
+	var subCategory2 = g_form.getValue('dfs_dpr_type_of_issue');
+	
+	var ga = new GlideAjax('DFSClientCallableFunction');
+	ga.addParam('sysparm_name','getFieldDetailsAndBehavior');
+	ga.addParam('sysparm_category',category);
+	ga.addParam('sysparm_categorySubCat1',subCategory1);
+	ga.addParam('sysparm_categorySubCat2',subCategory2);
+	ga.addParam('sysparm_categorySubCat3',newValue);
+	ga.getXML(getFieldAndBehavior);
+	//Type appropriate comment here, and begin script below
+}
+
+function getFieldAndBehavior(response) {
+	
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	var cat1Options = answer.split("::");
+	var fieldName = cat1Options[0].split(",");
+	var isMandatory = cat1Options[1].split(",");
+	var isReadonly = cat1Options[2].split(",");
+	arr_hide = fieldName;
+	
+	for (var i=0; i<fieldName.length; i++) {
+		if(fieldName)
+			{		
+			g_form.setDisplay(fieldName[i],true);
+			if(isReadonly[i] == 'true')
+				{
+				g_form.setReadonly(fieldName[i],true);
+			}
+			else if(isReadonly[i] == 'true')
+				{
+				g_form.setReadonly(fieldName[i],false);
+				
+			}
+			if(isMandatory[i] == 'true')
+				{
+				g_form.setMandatory(fieldName[i],true);
+			}
+			else if(isMandatory[i] == 'false')
+				{
+				g_form.setMandatory(fieldName[i],false);
+				
+			}
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Sonika Pathak</sys_created_by>
+        <sys_created_on>2016-08-11 08:28:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af7531674f0d2200f5374ea18110c78b</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>DFS - OnChangeOfSubCat3 - Field Behavior</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>sys_script_client_af7531674f0d2200f5374ea18110c78b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-11 14:38:51</sys_updated_on>
+        <table>x_15871_dfs_applic_dwss_payroll</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

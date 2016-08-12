@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>copy_req</action_name>
+        <active>true</active>
+        <client>true</client>
+        <comments/>
+        <condition>current.dpr_state !="10"</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Copy Request (Popup)</name>
+        <onclick>copyAndOpenAnother()</onclick>
+        <order>100</order>
+        <script><![CDATA[function copyAndOpenAnother(){
+	g_form.setValue('dpr_is_this_copy_request',true);
+	
+	var dialog = new GlideDialogForm('Create Another Record', g_form.getTableName(), callbackToParent);
+	dialog.setTitle("Create Another Record");
+	dialog.setSysID(-1);
+	dialog.addParm('sysparm_view', 'default');
+	dialog.addParm('sysparm_form_only', 'true');
+	dialog.setLoadCallback(function(iframeDoc) {
+		gs.addInfoMessage('test' +g_form.getTableName());
+		var arr = ["dfs_request_category","dfs_dpr_what_is_the_issue_related_to","dfs_dpr_type_of_issue","dfs_dpr_issue_related","dfs_assignment_group","dfs_dpr_who_is_the_inquiry_for","dfs_dpr_what_segment_bu_do_you_support","dfs_urgency","dfs_impact"];
+		gs.addInfoMessage('in loop' +arr[i]);
+		var dialogFrame = 'defaultView' in iframeDoc ? iframeDoc.defaultView : iframeDoc.parentWindow;
+		for(var i in arr){
+			if(arr[i] == "dfs_request_category" || arr[i] == "dfs_dpr_what_is_the_issue_related_to" || arr[i] == "dfs_dpr_type_of_issue" || arr[i] == "dfs_dpr_issue_related")
+				{
+				dialogFrame.g_form.addOption(arr[i],g_form.getValue(arr[i]),g_form.getValue(arr[i]));
+					gs.addInfoMessage('option' +dialogFrame);
+			}
+			dialogFrame.g_form.setValue(arr[i],g_form.getValue(arr[i]));
+			dialogFrame.g_form.setValue('dpr_is_this_copy_request',true);
+		}
+	});
+	dialog.render();
+	
+}
+
+function callbackToParent(action, sys_id, table, displayValue) {
+		//g_form.setValue('caller_id', sys_id);
+	}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>Sonika Pathak</sys_created_by>
+        <sys_created_on>2016-08-11 09:47:12</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8bf7822f4f0d2200f5374ea18110c7d0</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Copy Request (Popup)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>sys_ui_action_8bf7822f4f0d2200f5374ea18110c7d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-12 09:42:51</sys_updated_on>
+        <table>x_15871_dfs_applic_dwss_payroll</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

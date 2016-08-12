@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="DFS Field Behavior" max_length="40" name="x_15871_dfs_applic_dfs_field_behavior" type="collection">
+        <element label="Dependent Field Name" max_length="80" name="dfb_dependent_field_name" type="string"/>
+        <element label="Field Name" max_length="80" name="dfb_field_name" type="string"/>
+        <element label="Is Mandatory" max_length="80" name="dfb_is_mandatory" type="string"/>
+        <element label="Is Readonly" max_length="80" name="dfb_is_readonly" type="string"/>
+        <element label="Request Category" max_length="40" name="dfb_request_category" type="string"/>
+        <element label="Request SubCategory1" max_length="40" name="dfb_request_subcategory1" type="string"/>
+        <element label="Request SubCategory2" max_length="40" name="dfb_request_subcategory2" type="string"/>
+        <element label="Request SubCategory3" max_length="40" name="dfb_request_subcategory3" type="string"/>
+        <element label="Value" max_length="40" name="dfb_value" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

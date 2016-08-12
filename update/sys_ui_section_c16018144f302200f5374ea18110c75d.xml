@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="c16018144f302200f5374ea18110c75d" sys_domain="global" table="x_15871_dfs_applic_dfs_basedata" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>54f5d67c4fb82200f5374ea18110c79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_number</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>d4f5d67c4fb82200f5374ea18110c79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_open_by</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>58f5d67c4fb82200f5374ea18110c79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_submitted_for</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>d8f5d67c4fb82200f5374ea18110c79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_email_recipient</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>5cf5d67c4fb82200f5374ea18110c79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_request_category</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>dcf5d67c4fb82200f5374ea18110c79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>50f5d67c4fb82200f5374ea18110c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_impact</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>d0f5d67c4fb82200f5374ea18110c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_urgency</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>54f5d67c4fb82200f5374ea18110c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_contact_for_more_info</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>d4f5d67c4fb82200f5374ea18110c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_email_recepient1</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>58f5d67c4fb82200f5374ea18110c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_email_recepient2</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>d8f5d67c4fb82200f5374ea18110c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-21 11:29:11</sys_created_on>
+            <sys_id>5cf5d67c4fb82200f5374ea18110c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-21 11:29:11</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_describe_issue</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-22 04:53:40</sys_created_on>
+            <sys_id>e00542094f7c2200f5374ea18110c729</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-22 04:53:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>test</element>
+            <position>14</position>
+            <sys_created_by>Sonika Pathak</sys_created_by>
+            <sys_created_on>2016-07-29 10:54:30</sys_created_on>
+            <sys_id>5aba1f934f742200f5374ea18110c7a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-07-29 10:54:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_assignment_group</element>
+            <position>15</position>
+            <sys_created_by>Sonika Pathak</sys_created_by>
+            <sys_created_on>2016-08-03 13:41:48</sys_created_on>
+            <sys_id>f9f071c94fc92200f5374ea18110c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-03 13:41:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dfs_assigned_to</element>
+            <position>16</position>
+            <sys_created_by>Sonika Pathak</sys_created_by>
+            <sys_created_on>2016-08-03 13:42:44</sys_created_on>
+            <sys_id>27217d894fc92200f5374ea18110c701</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_15871_dfs_applic_dfs_basedata" sys_domain="global" view="Default view">c16018144f302200f5374ea18110c75d</sys_ui_section>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-03 13:42:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:28:43</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c16018144f302200f5374ea18110c75d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_15871_dfs_applic_dfs_basedata</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_ui_section_c16018144f302200f5374ea18110c75d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:28:43</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

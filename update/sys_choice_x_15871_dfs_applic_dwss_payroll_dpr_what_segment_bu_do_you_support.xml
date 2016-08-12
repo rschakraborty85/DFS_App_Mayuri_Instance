@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="dpr_what_segment_bu_do_you_support" table="x_15871_dfs_applic_dwss_payroll" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WDW</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:56:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68d690d44f302200f5374ea18110c71a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:56:54</sys_updated_on>
+            <value>WDW</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DLR</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:57:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3d6d8544f302200f5374ea18110c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:57:08</sys_updated_on>
+            <value>DLR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCL</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>300</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:57:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfe690d44f302200f5374ea18110c78f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:57:23</sys_updated_on>
+            <value>DCL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DVC</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>400</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:57:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66f61c544f302200f5374ea18110c756</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:57:36</sys_updated_on>
+            <value>DVC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>WDI</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>500</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:57:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b90790d44f302200f5374ea18110c7fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:57:52</sys_updated_on>
+            <value>WDI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corporate</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>600</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:58:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a1790d44f302200f5374ea18110c7fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:58:08</sys_updated_on>
+            <value>Corporate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Studio</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>700</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:58:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f83798944f302200f5374ea18110c7b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:58:55</sys_updated_on>
+            <value>Studio</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCPI</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>800</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:59:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6557d8544f302200f5374ea18110c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:59:10</sys_updated_on>
+            <value>DCPI</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Media</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>900</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:59:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2467d0d44f302200f5374ea18110c7d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:59:23</sys_updated_on>
+            <value>Media</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dpr_what_segment_bu_do_you_support</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ESPN</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>1000</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:59:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b767d0d44f302200f5374ea18110c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:59:37</sys_updated_on>
+            <value>ESPN</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dpr_what_segment_bu_do_you_support</element>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:56:54</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>75d690d44f302200f5374ea18110c71c</sys_id>
+            <sys_mod_count>10</sys_mod_count>
+            <sys_name>dpr_what_segment_bu_do_you_support</sys_name>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_choice_x_15871_dfs_applic_dwss_payroll_dpr_what_segment_bu_do_you_support</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:59:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

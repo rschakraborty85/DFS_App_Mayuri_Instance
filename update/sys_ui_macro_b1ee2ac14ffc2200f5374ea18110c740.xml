@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>DFS- Perner data</name>
+        <scoped_name>x_15871_dfs_applic_DFS- Perner data</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-22 07:57:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b1ee2ac14ffc2200f5374ea18110c740</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>DFS- Perner data</sys_name>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>sys_ui_macro_b1ee2ac14ffc2200f5374ea18110c740</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-22 08:32:45</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<style type="text/css">
+.alt_col {padding: 5px; width:2px}
+.labels {padding: 5px: 5px;text-align: left; font-weight: bold;}
+.input_tag {padding: 5px; text-align: center; width: 220px;}
+.select_box {padding: 5px; text-align: center; width: 200px;}
+.button_tag {font-size:120%; padding:5px; cursor:pointer; display:block; width:120%; background-color:rgb(233, 233, 223);}
+.required_field {width: 25px; color:#ff402c; padding-right:2px; font-size:40px;}
+</style>
+<table id="perner_form" border="0" align="left" style="margin-bottom: 10px;">
+	<tr>
+		<td><span id="status_consultant" class="required_field">*</span></td>
+		<td class="labels"><label>Perner</label></td>
+		<td class="alt_col"></td>
+		<td><span id="status_employment" class="required_field">*</span></td>
+		<td class="labels"><label>Name</label></td>
+		<td class="alt_col"></td>
+		<td><span id="status_service" class="required_field">*</span></td>
+		<td class="labels"><label>Payment Method</label></td>
+		<td class="alt_col"></td>
+		<!-- <td><span id="status_tax" class="required_field">*</span></td>
+		<td class="labels"><label>Tax Information</label></td>
+		<td class="alt_col"></td> -->
+		<td class="labels"></td>
+	</tr>
+	<tr>
+		<td><input type="hidden" id="consultant_name_hidden" name="consultant_name_hidden"></input></td>
+		<td><input class="input_tag" type="text" length="50" id="consultant_name" onchange="consultantFieldBehavior('1')"></input></td>
+		<td class="alt_col"></td>
+		<td></td>
+		<!-- <td> 
+			<select id="employment_status" class="select_box" onchange="consultantFieldBehavior('2')">
+				  <option value="none">None</option>
+				  <option value="Independent Contractor">Independent Contractor</option>
+				  <option value="Leased Worker">Leased Worker</option>
+			</select>
+		</td> -->
+		
+		<td><input class="input_tag" type="text" length="50" id="consult_name" onchange="consultantFieldBehavior('1')"></input></td>
+		<td class="alt_col"></td>
+		<td></td>
+		
+		<td> 
+			<select id="service_status" class="select_box" onchange="consultantFieldBehavior('3')">
+				  <option value="Direct Deposit / Paycard">Direct Deposit / Paycard</option>
+				  <option value="Check">Check</option>
+			</select>
+		</td>
+		<td class="alt_col"></td>
+		<td></td>
+		
+		<!-- <td> 
+			<select id="tax_information" class="select_box" onchange="consultantFieldBehavior('4')">
+				  <option value="none">None</option>
+				  <option value="W2 from 3rd party">W2 from 3rd party</option>
+				  <option value="1099 from Disney">1099 from Disney</option>
+			</select>
+		</td> -->
+		<td class="alt_col"></td>
+		<td><img src="ccr_psow_add.png" width="50" height="50" title="Add" alt="Add" id="add" onclick="addConsultantInList()"/><img src="ccr_psow_update_record.png" width="40" height="40" title="Update" alt="Update" id="update" onclick="updateConsultantRecord()"/></td>
+	</tr>
+</table>
+<span style="height: 10px;"></span>
+<span id="consultant_list" style="padding: 10px; position: relative;"></span>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

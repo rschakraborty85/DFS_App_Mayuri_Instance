@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_15871_dfs_applic_test_challenges.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	
+	<link href="9765562a4f012200f5374ea18110c7a6.cssdbx" rel="stylesheet" type="text/css"></link>
+	<link href="d955d44f4f412200f5374ea18110c7e2.cssdbx" rel="stylesheet" type="text/css"></link>
+
+	<g2:evaluate> 
+		var grCategories = new GlideRecord("sys_choice");
+		grCategories.addQuery("name","x_15871_dfs_applic_dfs_basedata");
+		//grCategories.addQuery("value","x_15871_dfs_applic_dwss_payroll");
+		grCategories.addQuery("element","dfs_request_category");
+		grCategories.query();
+		var arrLabelValue = [];
+		//var count = grCategories.getRowCount();
+		 while(grCategories.next()){
+			arrLabelValue.push(grCategories.label.toString()+":"+grCategories.value.toString());
+		 //jvar_arrCategories =+ grCategories.label+",";
+			
+		} 
+		var staticArr = ["1","2","3","4","5","6","7"];
+		var count = 6;
+		var col = 3;
+		var rowNum = count/col;
+		var rowNumExtra = count%3;
+	</g2:evaluate>
+	<table>
+	<j2:while test="$[rowNum&gt;0]">
+	<!--j2:forEach items="$[staticArr]" var="jvar_label"-->
+		<!--j2:if test="$[rowNum&gt;0]"-->
+			<tr>
+				<j2:while test="$[col&gt;0]">
+					<g2:evaluate>var print = staticArr[(col*rowNum)]</g2:evaluate>
+					<td>$[print]</td>$[SP]
+					<g2:evaluate>--col;</g2:evaluate>
+				</j2:while>
+			<!--g2:evaluate>col=3*rowNum;</g2:evaluate-->	
+			</tr>
+			<g2:evaluate>--rowNum;col=3*rowNum;</g2:evaluate>
+	</j2:while>
+		<!--/j2:if-->	
+		<!--g2:evaluate jelly="true">
+			var whole = jelly.jvar_label;
+			var label = whole.split(":")[0];
+			var value = whole.split(":")[1];
+		</g2:evaluate>
+		<div>
+			<a href="$[value].do?sys_id=-1">$[label]</a>
+		</div-->
+	<!--/j2:forEach-->
+	</table>
+</j:jelly>]]></html>
+        <name>test_challenges</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>rsc</sys_created_by>
+        <sys_created_on>2016-08-10 11:07:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b990dd9f4f852200f5374ea18110c799</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>test_challenges</sys_name>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>sys_ui_page_b990dd9f4f852200f5374ea18110c799</sys_update_name>
+        <sys_updated_by>rsc</sys_updated_by>
+        <sys_updated_on>2016-08-10 12:31:45</sys_updated_on>
+    </sys_ui_page>
+</record_update>

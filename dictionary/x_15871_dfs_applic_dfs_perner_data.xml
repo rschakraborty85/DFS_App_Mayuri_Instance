@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="DFS_Perner Data" max_length="40" name="x_15871_dfs_applic_dfs_perner_data" type="collection">
+        <element label="Amount" max_length="40" name="dfs_pnr_amount" type="currency"/>
+        <element label="Check" max_length="40" name="dfs_pnr_check" type="string"/>
+        <element label="Check Code" max_length="40" name="dfs_pnr_check_code" type="string"/>
+        <element label="Check Date" max_length="40" name="dfs_pnr_check_date" type="glide_date"/>
+        <element label="Delivery  address" max_length="40" name="dfs_pnr_delivery_address" type="string"/>
+        <element label="Direct Deposit Date" max_length="40" name="dfs_pnr_deposit_date" type="glide_date"/>
+        <element choice="1" label="Document Type" max_length="40" name="dfs_pnr_document_type" type="choice">
+            <choice>
+                <element label="W2 - 2003 or earlier" sequence="100" value="W2 - 2003 or earlier"/>
+                <element label="1099" sequence="200" value="1099"/>
+                <element label="Canadian T4" sequence="300" value="Canadian T4"/>
+                <element label="PR W2" sequence="400" value="PR W2"/>
+                <element label="W2C" sequence="500" value="W2C"/>
+            </choice>
+        </element>
+        <element label="Effective Date" max_length="40" name="dfs_pnr_effective_date" type="glide_date"/>
+        <element label="week ending date" max_length="40" name="dfs_pnr_ending_date" type="glide_date"/>
+        <element label="Leader name" max_length="40" name="dfs_pnr_leader_name" type="string"/>
+        <element label="Organization Unit #" max_length="40" name="dfs_pnr_organization_unit" type="string"/>
+        <element label="week ending date of overpayment" max_length="40" name="dfs_pnr_overpayment_date" type="glide_date"/>
+        <element label="Paycheck Date" max_length="40" name="dfs_pnr_paycheck_date" type="glide_date"/>
+        <element label="Payment Date" max_length="40" name="dfs_pnr_payment_date" type="glide_date"/>
+        <element choice="1" label="Payment method" max_length="40" name="dfs_pnr_payment_method" type="choice">
+            <choice>
+                <element label="Direct Deposit / Paycard" sequence="100" value="Direct Deposit / Paycard"/>
+                <element label="Check" sequence="200" value="Check"/>
+            </choice>
+        </element>
+        <element label="Payroll Area " max_length="40" name="dfs_pnr_payroll_area" type="string"/>
+        <element label="Perner" max_length="40" name="dfs_pnr_perner" type="string"/>
+        <element label="Perner Name" max_length="40" name="dfs_pnr_perner_name" type="string"/>
+        <element choice="1" label="Process Model" max_length="40" name="dfs_pnr_process_model" type="choice">
+            <choice>
+                <element label="AM" sequence="100" value="AM"/>
+                <element label="PM" sequence="200" value="PM"/>
+            </choice>
+        </element>
+        <element label="Print Routing String" max_length="40" name="dfs_pnr_routing_string" type="string"/>
+        <element label="Tax year" max_length="40" name="dfs_pnr_tax_year" type="string"/>
+        <element choice="1" label="Available Time Off Type" max_length="40" name="dfs_pnr_time_off_type" type="choice">
+            <choice>
+                <element label="Vacation" sequence="0" value="Vacation"/>
+                <element label="Sick" sequence="1" value="Sick"/>
+                <element label="Holiday" sequence="2" value="Holiday"/>
+                <element label="Other" sequence="3" value="Other"/>
+                <element label="All" sequence="4" value="All"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="dfs_pnr_type" type="choice">
+            <choice>
+                <element label="Regular Time" sequence="0" value="Regular Time"/>
+                <element label="Overtime" sequence="1" value="Overtime"/>
+                <element label="Vacation" sequence="2" value="Vacation"/>
+                <element label="Sick" sequence="3" value="Sick"/>
+                <element label="Holiday" sequence="4" value="Holiday"/>
+                <element label="Travel Day" sequence="5" value="Travel Day"/>
+                <element label="Penalties or Fees" sequence="6" value="Penalties or Fees"/>
+                <element label="Incorrect Rate" sequence="7" value="Incorrect Rate"/>
+                <element label="Other" sequence="8" value="Other"/>
+            </choice>
+        </element>
+        <element label="Work Date" max_length="40" name="dfs_pnr_work_date" type="string"/>
+        <element label="DFS Basedata" max_length="32" name="dpr_dfs_basedata" reference="x_15871_dfs_applic_dfs_basedata" type="reference"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="dpr_dfs_basedata"/>
+        </index>
+    </element>
+</database>

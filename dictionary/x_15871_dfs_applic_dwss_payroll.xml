@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="x_15871_dfs_applic_dfs_basedata" label="DWSS Payroll" max_length="40" name="x_15871_dfs_applic_dwss_payroll" type="collection">
+        <element label="Amount" max_length="40" name="dfs_dpr_amount" type="currency"/>
+        <element choice="1" label="Type of deduction" max_length="40" name="dfs_dpr_deduction" type="choice">
+            <choice>
+                <element label="Costuming" sequence="0" value="Costuming"/>
+                <element label="DCL-POEA" sequence="1" value="DCL-POEA"/>
+            </choice>
+        </element>
+        <element label="End Date" max_length="40" name="dfs_dpr_end_date" type="glide_date"/>
+        <element choice="1" label="Request Sub-Category 3" max_length="40" name="dfs_dpr_issue_related" type="choice">
+            <choice/>
+        </element>
+        <element label="Name" max_length="40" name="dfs_dpr_name" type="string"/>
+        <element label="Perner" max_length="40" name="dfs_dpr_perner" type="string"/>
+        <element choice="1" label="What is your request?" max_length="40" name="dfs_dpr_request" type="choice">
+            <choice>
+                <element label="Start" sequence="0" value="Start"/>
+                <element label="Stop" sequence="1" value="Stop"/>
+                <element label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element label="Start Date" max_length="40" name="dfs_dpr_start_date" type="glide_date"/>
+        <element choice="1" label="Request Sub-Category 2" max_length="40" name="dfs_dpr_type_of_issue" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Request Sub-Category 1" max_length="40" name="dfs_dpr_what_is_the_issue_related_to" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="What segment/BU do you support?" max_length="40" name="dfs_dpr_what_segment_bu_do_you_support" type="choice">
+            <choice>
+                <element label="WDW" sequence="0" value="WDW"/>
+                <element label="DLR" sequence="1" value="DLR"/>
+                <element label="DCL" sequence="2" value="DCL"/>
+                <element label="DVC" sequence="3" value="DVC"/>
+                <element label="WDI" sequence="4" value="WDI"/>
+                <element label="Corporate" sequence="5" value="Corporate"/>
+                <element label="Studio" sequence="6" value="Studio"/>
+                <element label="DCPI" sequence="7" value="DCPI"/>
+                <element label="Media" sequence="8" value="Media"/>
+                <element label="ESPN" sequence="9" value="ESPN"/>
+            </choice>
+        </element>
+        <element choice="1" label="Who is the inquiry for?" max_length="40" name="dfs_dpr_who_is_the_inquiry_for" type="choice">
+            <choice>
+                <element label="Self" sequence="0" value="Self"/>
+                <element label="I'm a leader inquiring on behalf of one employee" sequence="1" value="I'm a leader inquiring on behalf of one employee"/>
+                <element label="Others" sequence="2" value="Others"/>
+            </choice>
+        </element>
+        <element label="Is this copy request" max_length="40" name="dpr_is_this_copy_request" type="boolean"/>
+        <element choice="1" default="10" label="Status" max_length="40" name="dpr_state" type="choice">
+            <choice>
+                <element label="Draft" sequence="0" value="10"/>
+                <element label="Work in Progress" sequence="20" value="20"/>
+                <element label="Awaiting Due Date" sequence="30" value="30"/>
+                <element label="Close Complete" sequence="40" value="40"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Message Center" max_length="40" name="x_15871_dfs_applic_message_center" type="collection">
+        <element label="Link" max_length="1024" name="link" type="url"/>
+        <element label="Link label" max_length="100" name="link_label" type="string"/>
+        <element label="Message" max_length="1000" name="message" type="string"/>
+        <element label="Meta" max_length="1000" name="meta" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Article" sequence="1" value="Article"/>
+                <element label="Message" sequence="2" value="Message"/>
+            </choice>
+        </element>
+        <element label="Valid from" max_length="40" name="valid_from" type="glide_date"/>
+        <element label="Valid To" max_length="40" name="valid_to" type="glide_date"/>
+    </element>
+</database>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>dfs_dpr_amount</field>
+        <global>true</global>
+        <messages/>
+        <name>DPR_DefaultRequestCategory</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	g_form.setValue('dfs_request_category', 'DWSS - Payroll');
+	g_form.setReadOnly('dfs_request_category',true);
+	
+	g_form.setReadOnly('dpr_state', true);
+	g_form.setDisplay('dfs_dpr_request',false);
+	g_form.setDisplay('dpr_is_this_copy_request',false);
+	g_form.setDisplay('dfs_dpr_start_date',false);
+	g_form.setDisplay('dfs_dpr_amount',false);
+	g_form.setDisplay('dfs_dpr_end_date',false);
+	
+	//Set Default field as Mandatory
+	
+	g_form.setMandatory('dfs_dpr_who_is_the_inquiry_for', true);
+	g_form.setMandatory('dfs_dpr_what_segment_bu_do_you_support', true);
+	g_form.setMandatory('dfs_dpr_what_is_the_issue_related_to', true);
+	g_form.setMandatory('dfs_dpr_type_of_issue', true);
+	g_form.setMandatory('dfs_dpr_issue_related', true);
+	
+	var subCategory1 = g_form.getValue('dfs_dpr_what_is_the_issue_related_to');
+	var subcategory2 = g_form.getValue('dfs_dpr_type_of_issue');
+	if(subCategory1 == '')
+		{
+		g_form.setMandatory('dfs_dpr_type_of_issue',false);
+		g_form.setMandatory('dfs_dpr_issue_related',false);
+		g_form.setDisplay('dfs_dpr_type_of_issue',false);
+		g_form.setDisplay('dfs_dpr_issue_related',false);
+	}
+	else if(subcategory2 == '')
+		{
+		g_form.setMandatory('dfs_dpr_issue_related',false);
+		g_form.setDisplay('dfs_dpr_issue_related',false);
+		
+	}
+	
+	var current_sys_id = getParmVal('sysparmCurrentSysID');
+	
+	if(current_sys_id !="" && current_sys_id)
+		{
+		var ga = new GlideAjax('DFSClientCallableFunction');
+		ga.addParam('sysparm_name','getDFSPayrollRecordDetails');
+		ga.addParam('sysparm_currentSysID',current_sys_id);
+		ga.getXML(setValuesFromExistingRecord);
+	}
+	
+	
+}
+function setDefaultValue(response)
+{
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	alert(answer);
+	url ='/x_15871_dfs_applic_dwss_payroll.do?sys_id='+answer;
+	window.open(url);
+}
+function setValuesFromExistingRecord(response) {
+	var answer = response.responseXML.documentElement.getAttribute("answer");
+	var result = answer.split(',');
+	
+	g_form.setValue("dfs_request_category",result[0]);
+	
+	g_form.addOption('dfs_dpr_what_is_the_issue_related_to', result[1], result[1]);
+	g_form.setValue("dfs_dpr_what_is_the_issue_related_to",result[1]);
+	
+	g_form.addOption('dfs_dpr_type_of_issue', result[2], result[2]);
+	g_form.setValue("dfs_dpr_type_of_issue",result[2]);
+	
+	g_form.addOption('dfs_dpr_issue_related', result[3], result[3]);
+	g_form.setValue("dfs_dpr_issue_related",result[3]);
+	
+	g_form.setValue("dfs_assignment_group",result[4]);
+	g_form.setValue("dfs_dpr_who_is_the_inquiry_for",result[5]);
+	g_form.setValue("dfs_dpr_what_segment_bu_do_you_support",result[6]);
+	g_form.setValue("dfs_urgency",result[7]);
+	g_form.setValue("dfs_impact",result[8]);
+}
+
+function getParmVal(name){
+	var url = document.URL.parseQuery();
+	if(url[name]){
+		return decodeURI(url[name]);
+	}
+	else{
+		return;
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-21 06:59:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>56e759784f782200f5374ea18110c7ac</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>DPR_DefaultRequestCategory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>sys_script_client_56e759784f782200f5374ea18110c7ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-12 08:47:54</sys_updated_on>
+        <table>x_15871_dfs_applic_dwss_payroll</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

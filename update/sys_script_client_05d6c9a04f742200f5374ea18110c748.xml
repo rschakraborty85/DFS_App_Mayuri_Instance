@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Behavior of fields on change of what is your request</description>
+        <field>dfs_dpr_request</field>
+        <global>true</global>
+        <messages/>
+        <name>DPR_onChangeOfRequest</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	var value = g_form.getValue('dfs_dpr_request');
+	if(value === 'Start')
+		{
+		g_form.setDisplay('dfs_dpr_start_date', true);
+		g_form.setDisplay('dfs_dpr_amount', true);
+		g_form.setDisplay('dfs_dpr_end_date', false);
+		g_form.setDisplay('dfs_dpr_describe', false);
+	}
+	else if(value === 'Stop')
+		{
+		g_form.setDisplay('dfs_dpr_end_date', true);
+		g_form.setDisplay('dfs_dpr_amount', true);
+		g_form.setDisplay('dfs_dpr_start_date', false);
+		g_form.setDisplay('dfs_dpr_describe', false);
+	}
+	else if(value === 'Other')
+		{
+		g_form.setDisplay('dfs_dpr_describe', true);
+		g_form.setDisplay('dfs_dpr_start_date', false);
+		g_form.setDisplay('dfs_dpr_end_date', false);
+		g_form.setDisplay('dfs_dpr_amount', false);
+	}
+	else
+		{
+		g_form.setDisplay('dfs_dpr_start_date', false);
+		g_form.setDisplay('dfs_dpr_end_date', false);
+		g_form.setDisplay('dfs_dpr_amount', false);
+		g_form.setDisplay('dfs_dpr_describe', false);
+	}
+	
+	//Type appropriate comment here, and begin script below
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-20 11:12:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>05d6c9a04f742200f5374ea18110c748</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>DPR_onChangeOfRequest</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>sys_script_client_05d6c9a04f742200f5374ea18110c748</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-08-11 09:56:29</sys_updated_on>
+        <table>x_15871_dfs_applic_dwss_payroll</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

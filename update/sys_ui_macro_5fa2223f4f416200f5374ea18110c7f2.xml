@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>baseModControl</name>
+        <scoped_name>x_15871_dfs_applic_baseModControl</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>rsc</sys_created_by>
+        <sys_created_on>2016-08-12 06:22:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5fa2223f4f416200f5374ea18110c7f2</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>baseModControl</sys_name>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>sys_ui_macro_5fa2223f4f416200f5374ea18110c7f2</sys_update_name>
+        <sys_updated_by>rsc</sys_updated_by>
+        <sys_updated_on>2016-08-12 09:06:03</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+	<!-- angular modules -->  
+    <script type="text/javascript">
+		var app = angular.module("angularHelloWorldApp",[]);
+	</script>  
+	
+    <!-- angular controllers -->  
+    <script type="text/javascript">  
+      app.controller('MainController', ['$scope', function($scope) {  
+            //$scope.greeting = "Hello from Angular!";
+			$scope.nameIs = "";
+      }]);  
+  </script>
+	
+	<script type="text/javascript">  
+      app.controller('TryService', ['$scope', '$http', function($scope,$http) {
+            //$scope.greeting = "Hello from Angular!";
+            var url = "incident.do?JSONv2%26sysparm_query=";
+			var query = "number="+ $scope.incident;
+			$scope.clicked = function(){
+				$http.get("/api/now/table/incident?sysparm_query=number="+$scope.incident).then(function (response) {
+					$scope.responseData = response;
+			});
+		}
+      }]);  
+  </script>
+	
+	<script type="text/javascript">  
+      app.controller('TryService2', ['$scope', '$http', function($scope,$http) {
+            var url = "http://wiki.servicenow.com/index.php?title="+$scope.keywords+"#gsc.q="+$scope.keywords;
+			$scope.clicked2 = function(){
+				//$scope.responseData = "Static Result from Wiki";
+				$http.get("https://www.apple.com").then(function(response) {
+					$scope.responseData = response.status;
+			});
+		}
+      }]);  
+  </script>
+	
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="impact" table="x_15871_dfs_applic_dfs_basedata" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint>Single User</hint>
+            <inactive>false</inactive>
+            <label>Single User</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:24:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c16f04144f302200f5374ea18110c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:24:45</sys_updated_on>
+            <value>Single User</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint>Multiple Users</hint>
+            <inactive>false</inactive>
+            <label>Multiple Users</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:25:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>718fc8d04f302200f5374ea18110c7e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:25:14</sys_updated_on>
+            <value>Multiple Users</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-19 12:24:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>cb7f0cd04f302200f5374ea18110c75c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>impact</sys_name>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_choice_x_15871_dfs_applic_dfs_basedata_impact</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-19 12:25:14</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

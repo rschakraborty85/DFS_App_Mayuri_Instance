@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="dfs_contact_for_more_info" table="x_15871_dfs_applic_dfs_basedata" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_contact_for_more_info</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted For</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 12:44:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a06d11a84f742200f5374ea18110c7e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-20 12:44:07</sys_updated_on>
+            <value>Submitted For</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_contact_for_more_info</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Both(Open By and Submitted For)</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 12:46:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dddd11a84f742200f5374ea18110c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-20 12:46:00</sys_updated_on>
+            <value>Both</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dfs_contact_for_more_info</element>
+            <name>x_15871_dfs_applic_dfs_basedata</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 12:44:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>dc8d95684f742200f5374ea18110c7a0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>dfs_contact_for_more_info</sys_name>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_choice_x_15871_dfs_applic_dfs_basedata_dfs_contact_for_more_info</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-07-20 12:46:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

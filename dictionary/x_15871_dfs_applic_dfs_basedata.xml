@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="DFS Basedata" max_length="40" name="x_15871_dfs_applic_dfs_basedata" type="collection">
+        <element label="Assigned To" max_length="32" name="dfs_assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment Group" max_length="32" name="dfs_assignment_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" default="Submitted For" label="Contact For More Info" max_length="40" name="dfs_contact_for_more_info" type="choice">
+            <choice>
+                <element label="Submitted For" sequence="100" value="Submitted For"/>
+                <element label="Both(Open By and Submitted For)" sequence="200" value="Both"/>
+            </choice>
+        </element>
+        <element label="Describe Issue" mandatory="true" max_length="1000" name="dfs_describe_issue" type="string"/>
+        <element label="Email Recipient" max_length="100" name="dfs_email_recipient" type="glide_list"/>
+        <element choice="1" default="Single User" label="Impact" max_length="40" name="dfs_impact" type="choice">
+            <choice>
+                <element hint="Single User" label="Single User" sequence="100" value="Single User"/>
+                <element hint="Multiple Users" label="Multiple Users" sequence="200" value="Multiple Users"/>
+            </choice>
+        </element>
+        <element default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="dfs_number" type="string"/>
+        <element default="javascript: gs.getUserID();" label="Open By" max_length="32" name="dfs_open_by" reference="sys_user" type="reference"/>
+        <element choice="1" label="Request Category" max_length="40" name="dfs_request_category" type="choice">
+            <choice>
+                <element label="DWSS - Payroll" sequence="100" value="x_15871_dfs_applic_dwss_payroll"/>
+                <element label="DWSS - T&amp;E/PCard" sequence="200" value="x_15871_dfs_applic_dwss_payroll"/>
+                <element label="DWSS - Accounts Payable" sequence="300" value="x_15871_dfs_applic_dwss_payroll"/>
+                <element label="DWSS - TWDC Procurement Services" sequence="400" value="x_15871_dfs_applic_dwss_payroll"/>
+                <element label="SAP - PTP - Purchasing/eSource" sequence="500" value="x_15871_dfs_applic_dwss_payroll"/>
+                <element label="SAP - Other" sequence="600" value="https://disney.service-now.com/DToolsIT/"/>
+            </choice>
+        </element>
+        <element default="javascript: gs.getUserID();" label="Submitted For" max_length="32" name="dfs_submitted_for" reference="sys_user" type="reference"/>
+        <element choice="1" default="Non-Emergency" label="Urgency" max_length="40" name="dfs_urgency" type="choice">
+            <choice>
+                <element label="Non-Emergency" sequence="100" value="Non-Emergency"/>
+                <element label="Emergency" sequence="200" value="Emergency"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="dfs_open_by"/>
+        </index>
+        <index name="index2">
+            <element name="dfs_assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="dfs_assigned_to"/>
+        </index>
+        <index name="index4">
+            <element name="dfs_submitted_for"/>
+        </index>
+    </element>
+</database>

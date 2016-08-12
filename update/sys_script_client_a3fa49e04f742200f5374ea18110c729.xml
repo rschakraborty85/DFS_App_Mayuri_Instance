@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Behavior of fields on change of type of issue</description>
+        <field>dfs_dsp_issue</field>
+        <global>true</global>
+        <messages/>
+        <name>DSP_onChangeOf Issue</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	var value = g_form.getValue('dfs_dsp_issue');
+	if(value === 'Shopping Cart')
+		{
+		g_form.setDisplay('dfs_dsp_cart', true);
+		g_form.setDisplay('dfs_dsp_type', true);
+		g_form.setDisplay('dfs_dpr_error_message', true);
+		g_form.setDisplay('dfs_dsp_po', false);
+		g_form.setDisplay('dfs_dsp_line', false);
+	}
+	else if(value === 'Purchase Order')
+		{
+		g_form.setDisplay('dfs_dsp_po', true);
+		g_form.setDisplay('dfs_dsp_line', true);
+		g_form.setDisplay('dfs_dsp_cart', false);
+		g_form.setDisplay('dfs_dsp_type', false);
+		g_form.setDisplay('dfs_dpr_error_message', false);
+	}
+	else
+		{
+		g_form.setDisplay('dfs_dsp_cart', false);
+		g_form.setDisplay('dfs_dsp_type', false);
+		g_form.setDisplay('dfs_dpr_error_message', false);
+		g_form.setDisplay('dfs_dsp_po', false);
+		g_form.setDisplay('dfs_dsp_line', false);
+	}
+	//Type appropriate comment here, and begin script below
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-20 11:37:21</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3fa49e04f742200f5374ea18110c729</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DSP_onChangeOf Issue</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>sys_script_client_a3fa49e04f742200f5374ea18110c729</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-21 07:09:51</sys_updated_on>
+        <table>x_15871_dfs_applic_sap_ptp</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="dfs_dpr_what_is_the_issue_related_to" table="x_15871_dfs_applic_dwss_payroll" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_is_the_issue_related_to</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Payroll Operations</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:27:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b89379c4ff02200f5374ea18110c757</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-11 07:19:33</sys_updated_on>
+            <value>Payroll Operations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>dfs_dpr_what_is_the_issue_related_to</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Payroll Tax</label>
+            <language>en</language>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:28:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6aa9339c4ff02200f5374ea18110c7af</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-04 08:06:38</sys_updated_on>
+            <value>Payroll Tax</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>dfs_dpr_what_is_the_issue_related_to</element>
+            <name>x_15871_dfs_applic_dwss_payroll</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-07-20 05:27:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7899339c4ff02200f5374ea18110c7ae</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>dfs_dpr_what_is_the_issue_related_to</sys_name>
+            <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+            <sys_update_name>sys_choice_x_15871_dfs_applic_dwss_payroll_dfs_dpr_what_is_the_issue_related_to</sys_update_name>
+            <sys_updated_by>Sonika Pathak</sys_updated_by>
+            <sys_updated_on>2016-08-11 07:19:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

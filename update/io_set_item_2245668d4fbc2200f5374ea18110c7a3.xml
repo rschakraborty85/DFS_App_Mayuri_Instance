@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>1</order>
+        <sc_cat_item display_value="DFS - DWSS - Payroll ">de0466014ffc2200f5374ea18110c7c0</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-07-22 07:14:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2245668d4fbc2200f5374ea18110c7a3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>DFS Common Field Set.DFS - DWSS - Payroll </sys_name>
+        <sys_package display_value="DFS Application" source="x_15871_dfs_applic">359cc8904f302200f5374ea18110c75f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="DFS Application">359cc8904f302200f5374ea18110c75f</sys_scope>
+        <sys_update_name>io_set_item_2245668d4fbc2200f5374ea18110c7a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-07-22 07:59:58</sys_updated_on>
+        <variable_set display_value="DFS Common Field Set">cd056a014ffc2200f5374ea18110c7c6</variable_set>
+    </io_set_item>
+</record_update>
